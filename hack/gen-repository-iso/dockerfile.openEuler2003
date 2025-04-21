@@ -5,7 +5,7 @@ ENV OS_VERSION=20.03
 ARG BUILD_TOOLS="findutils dnf-utils createrepo genisoimage"
 ARG DIR=${OS}${OS_VERSION}-${TARGETARCH}-rpms
 COPY k3s-common.repo /etc/yum.repos.d/
-RUN yum install -q -y ${BUILD_TOOLS} \
+RUN yum install -q -y --nogpgcheck ${BUILD_TOOLS} \
     && yum makecache
 WORKDIR package
 COPY packages.yaml .
