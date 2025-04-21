@@ -1,0 +1,41 @@
+---
+common:
+
+rpms:
+
+debs:
+
+centos:
+
+centos7:
+
+debian:
+
+debian10:
+
+debian11:
+
+ubuntu:
+
+ubuntu1604:
+
+ubuntu1804:
+
+ubuntu2004:
+
+ubuntu2204:
+
+almalinux:
+
+almalinux90:
+
+openEuler:
+  - chrony
+  - k3s-selinux
+kylin:
+  - chrony
+  - k3s-selinux
+uos:
+  - chrony
+  - k3s-selinux
+  - bash-completion
