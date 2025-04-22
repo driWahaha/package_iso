@@ -1,4 +1,4 @@
-FROM openeuler/openeuler:20.03-lts as openeuler
+FROM openeuler/openeuler:20.03-lts-sp4 as openeuler
 ARG TARGETARCH
 ENV OS=openEuler
 ENV OS_VERSION=20.03
