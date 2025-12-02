@@ -4,7 +4,7 @@ ENV OS=openEuler
 ENV OS_VERSION=24.03
 ARG BUILD_TOOLS="findutils dnf-utils createrepo genisoimage"
 ARG DIR=${OS}${OS_VERSION}-${TARGETARCH}-rpms
-COPY container-selinux.repo k3s-common.repo /etc/yum.repos.d/
+COPY container-selinux.repo k3s-common-oe.repo /etc/yum.repos.d/
 RUN yum install -q -y ${BUILD_TOOLS} \
     && yum makecache
 WORKDIR package
