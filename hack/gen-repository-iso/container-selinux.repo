@@ -1,6 +1,6 @@
 [container-selinux]
 name=container-selinux
-baseurl=http://repo.openeuler.org/openEuler-24.03-LTS-SP4/everything/$basearch/
+baseurl=http://repo.openeuler.org/openEuler-24.03-LTS-SP1/everything/$basearch/
 enabled=1
 gpgcheck=1
-gpgkey=http://repo.openeuler.org/openEuler-24.03-LTS-SP4/everything/$basearch/RPM-GPG-KEY-openEuler
+gpgkey=http://repo.openeuler.org/openEuler-24.03-LTS-SP1/everything/$basearch/RPM-GPG-KEY-openEuler
